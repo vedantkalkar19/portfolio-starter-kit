@@ -1,4 +1,6 @@
-import { BlogPosts } from 'app/components/posts'
+import EXPERIENCE from "./components/experience";
+import Projects from "./components/Projects";
+
 
 export default function Page() {
   return (
@@ -7,14 +9,17 @@ export default function Page() {
         My Portfolio
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`I am a passionate Machine Learning enthusiast and Go developer, dedicated
+         to designing workflows through the implementation of high-quality ML algorithms. I
+          specialize in developing solutions using Kubernetes and CLI applications. This
+           approach allows me to upskill, tackle real-world challenges, and
+            gain hands-on experience that deepens my understanding of practical
+             applications and their real-world use cases.`}
       </p>
       <div className="my-8">
-        <BlogPosts />
+      <EXPERIENCE/>
+      <Projects />
+
       </div>
     </section>
   )
