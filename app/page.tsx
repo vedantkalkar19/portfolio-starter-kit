@@ -9,7 +9,8 @@ export default function Page() {
         My Portfolio
       </h1>
       <p className="mb-4">
-        {`Hey my self Vedant Kalkar,
+        {`Hey myself Vedant Kalkar,
+        
         I am a passionate Machine Learning enthusiast and Go developer, dedicated
          to designing workflows through the implementation of high-quality ML algorithms. I
           specialize in developing solutions using Kubernetes and CLI applications. This
